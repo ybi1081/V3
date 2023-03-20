@@ -1,0 +1,20 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-ProfileView",
+      "appliesTo": "src/views/ProfileView.vue",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-ProfileView",
+      "appliesTo": "src/views/ProfileView.vue",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-myapp",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}
