@@ -111,18 +111,6 @@ export default ({
 })
 </script>
 <style scoped>
-
-.popup-view{
-  opacity: 0;
-  display: none;
-  visibility: hidden;
-}
-.active{
-  opacity: 1;
-  display: block;
-  visibility: visible;
-}
-
 h3 {
   margin: 40px 0 0;
 }
