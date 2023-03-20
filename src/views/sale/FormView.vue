@@ -67,6 +67,7 @@ export default ({
         },
         isLoading: false,
         popupView : false,
+        showModal: false,
       }
   },
   methods: {
@@ -99,10 +100,7 @@ export default ({
                   .finally(() => {
                     this.isLoading = false;
                   })
-
-
           }
-
       },
   },
   created() {
