@@ -39,26 +39,14 @@
 
             <button v-on:click="addTodo">저장</button>
     </div>
-      <button
-        @click="handleClickButton">
-        팝업 오픈!
-      </button>
-    <app-my-modal
-      title="This is modal"
-      :visible.sync="visible">
-      <div>
-        This is modal body
-      </div>
-    </app-my-modal>
+
 
 </template>
 
 <script>
-import MyModal from '@/components/my-modal.vue'
 export default ({
   name: "FormView",
   components: {
-        appMyModal: MyModal
   },
   data() {
       return{
@@ -82,12 +70,6 @@ export default ({
       }
   },
   methods: {
-    sync handleClickButton(){
-      this.visible = !this.visible
-    } ,
-      openPopup(){
-        this.popupView = (this.popupView) ? false : true
-      },
       async addTodo(){
           if (this.id !== ''){
             this.data.adminNum = 1
