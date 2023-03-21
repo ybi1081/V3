@@ -81,7 +81,7 @@ export default ({
             //this.todoItem= '';
             this.isLoading = true;
 
-            let res = await this.$axios.get("/agmet/selectAdminMenuTree.do")
+            let res = await this.$axios.get("/api/agmet/selectAdminMenuTree.do")
             console.log(res.data)
 
             console.log(this.data);

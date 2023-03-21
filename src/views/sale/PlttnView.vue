@@ -60,7 +60,7 @@ export default {
   methods:{
     async searchFn(){
         this.isLoading = true;
-        this.$axios.get("/agmet/selectPlttnInfo.do",
+        this.$axios.get("/api/agmet/selectPlttnInfo.do",
                 {  
                   params: {    }
                 , headers: { 'Content-Type': 'application/json' }

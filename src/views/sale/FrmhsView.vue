@@ -88,7 +88,7 @@ export default {
   methods:{
     searchFn: function(){
         this.isLoading = true;
-        this.$axios.get("/agmet/selectAdminMenuTree.do",
+        this.$axios.get("/api/agmet/selectAdminMenuTree.do",
                 {  
                   params: {    }
                 , headers: { 'Content-Type': 'application/json' }
